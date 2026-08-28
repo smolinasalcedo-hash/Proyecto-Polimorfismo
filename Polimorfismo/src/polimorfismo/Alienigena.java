@@ -1,13 +1,33 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package polimorfismo;
 
-/**
- *
- * @author PC
- */
-public class Alienigena {
+public class Alienigena 
+{
+    private String raza="";
+    private int numeroOjos=0;
+    private boolean esHostil=false;
+
+    
+    public Alienigena(String raza) {
+        
+        this.raza = raza;
+
+    }
+
+
+    public Alienigena(String raza, int numeroOjos) {
+        
+        this.raza = raza;
+        this.numeroOjos = numeroOjos;
+      
+    }
+
+
+    public Alienigena(String raza, int numeroOjos, boolean esHostil) {
+        
+        this.raza = raza;
+        this.numeroOjos = numeroOjos;
+        this.esHostil = esHostil;
+    }
     
 }
