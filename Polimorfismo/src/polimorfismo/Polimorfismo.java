@@ -22,7 +22,13 @@ public class Polimorfismo
         Planeta pl2 = new Planeta("Júpiter", 79);
         Planeta pl3 = new Planeta("Marte", 2, 'R');
         
-        
+        Epoca epoca1 = new Epoca("Medieval");
+        Epoca epoca2 = new Epoca("Renacimiento", 1500);
+        Epoca epoca3 = new Epoca("Era Hiboria", 10000, true);
+
+        Trabajo trabajo1 = new Trabajo("Desarrollador");
+        Trabajo trabajo2 = new Trabajo("Analista de Datos", 5);
+        Trabajo trabajo3 = new Trabajo("Arquitecto de Software", 12, true);
     
     
     
